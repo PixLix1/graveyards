@@ -14,7 +14,7 @@
 #
 #     name = models.CharField(max_length=255, null=False)
 #     address = models.CharField(max_length=255, null=False)
-#     contractor = models.ForeignKey(AuthUserModel, null=False, on_delete=models.CASCADE, related_name='users')
+#     administrator = models.ForeignKey(AuthUserModel, null=False, on_delete=models.CASCADE, related_name='users')
 #
 #     # image = models.ImageField(upload_to='graveyards')
 #

@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'cemeteries.apps.CemeteryConfig',
     'users.apps.UserConfig',
     'django.contrib.admin',
     'django.contrib.auth',
